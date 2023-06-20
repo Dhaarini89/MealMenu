@@ -289,7 +289,7 @@ class PlannerFragment : Fragment(), EditItemsDialog.OnEditItemSelectedListener, 
                             // Now 'screenshot' contains the captured image of your fragment
 
                             val uri = FileProvider.getUriForFile(requireContext(),
-                                "com.example.test.fileprovider",
+                                "com.example.mealmenu.fileprovider",
                                 file)
                             val shareIntent = Intent(Intent.ACTION_SEND)
                             shareIntent.type = "image/png"
